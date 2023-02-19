@@ -15,7 +15,7 @@ public class Contador {
 
 		} catch (ParametrosInvalidosException e) {
 			// imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
-			e.setStackTrace("O segundo parametro deve ser maior que o primeiro.");
+			e.printStackTrace();
 		}
 
 		terminal.close();
