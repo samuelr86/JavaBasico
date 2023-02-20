@@ -1,3 +1,5 @@
+package construtores;
+
 public class SistemaCadastro {
 	public static void main(String[] args) {
 		//criamos uma pessoa no sistema
